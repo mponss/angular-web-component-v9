@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'angular-web-component-v9';
   counter = 0;
+  text = '';
 
   ngOnInit(): void {
       setInterval(() => {
